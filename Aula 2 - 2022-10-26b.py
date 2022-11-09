@@ -3,7 +3,7 @@
 nome = input("Informe seu nome: ")
 nota = float(input("Digite sua nota: "))
 if nota == 10:
-  print(f"{nome}, Parabén, você é bichão mesmo.")
+  print(f"{nome}, Parabéns, você é bichão mesmo.")
 elif (nota >= 6  and nota < 10):
   print(f"{nome}, bom trabalho.")
 else: # é sempre  automaticamente o que as duas condições não atende
